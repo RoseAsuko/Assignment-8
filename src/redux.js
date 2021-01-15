@@ -1,7 +1,3 @@
-
-
-
-
 const redux = require("redux")
 
 function addRow()
@@ -47,7 +43,7 @@ function clear()
 }
 
 
-function reducer(state =  {}, action)
+function reducer(state = {}, action)
 {
     switch(action.type)
     {
