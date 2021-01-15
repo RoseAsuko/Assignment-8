@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+button{
+  color:black;
+  text-align: center;
+  font-size: 15px;
+  height: 60px;
+  width: 120px;
+  cursor: pointer;
+}
+
+#addRow, #subRow, #addColumns, #subColumns, #fill, #multi{
+    margin:5px;
+}
+
+#colors{
+
+font-size: 15px;
+height: 60px;
+width: 120px;
+
+}
+
+
+#usersTable{
+    table-layout: fixed;
+    height: 60px;
+    width:  100px;
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin: 5px;
+    
+}
+#usersTable .t:hover{
+    background: pink;
+}
+
+
